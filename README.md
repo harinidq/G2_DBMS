@@ -28,7 +28,7 @@ CREATE TABLE student(
     address varchar(100),
     phoneno numeric(10)
     );
-'''
+```
 
 ### OUTPUT:
 ![image](https://github.com/harinidq/G2_DBMS/assets/113497680/84dc2b97-4b33-42ed-9ed1-9676b7ccc5a9)
@@ -36,18 +36,18 @@ CREATE TABLE student(
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-'''
+```
 ALTER TABLE student ADD Department char(10);
-'''
+```
 ### OUTPUT:
 ![image](https://github.com/harinidq/G2_DBMS/assets/113497680/134e68a7-37d4-4cec-9595-1dbd3252cead)
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
-'''
+```
 DROP TABLE student;
-'''
+```
 ### OUTPUT:
 ![image](https://github.com/harinidq/G2_DBMS/assets/113497680/7dad242e-374d-481a-a3e4-494694c70901)
 
